@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison V&P actualité</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://www.maisonvp.fr/wp-content/uploads/2024/04/911_AVANT3803-copie.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .article-image {
+            transition: transform 0.3s ease;
+        }
+        
+        .article-card:hover .article-image {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="relative">
+        <div class="hero-image h-96 md:h-screen/2 flex items-center justify-center text-center relative">
+            <div class="absolute top-4 right-4">
+                <a href="/en" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-4 py-2 rounded-full transition-all duration-300">
+                    English Version
+                </a>
+            </div>
+            <div class="px-4 md:px-0">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Maison V&P</h1>
+                <p class="text-xl md:text-2xl text-white italic">Les épures – David Voisin</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto">
+            <!-- Article List -->
+            <div class="space-y-16">
+                <!-- Article 1 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300">
+                    <a href="https://www.maisonvp.fr/les-epures-au-mans-classic-du-3-au-6-juillet-2025/" class="block">
+                        <div class="md:flex">
+                            <div class="md:w-1/3 overflow-hidden">
+                                <img src="https://www.maisonvp.fr/wp-content/uploads/2024/04/911_AVANT3803-copie.jpg" alt="Les Epures au Mans Classic" class="w-full h-full object-cover article-image">
+                            </div>
+                            <div class="p-6 md:w-2/3">
+                                <h2 class="text-2xl font-bold mb-3">Les Epures au Mans Classic du 3 au 6 juillet 2025</h2>
+                                <p class="text-gray-600 mb-4">Retrouvez les Épures et une équipe bien rodée pour vous recevoir, dans les paddocks du Mans Classic du 3 Au 6 juillet 2025. Village 5 Stand 520.@lemansclassic2025 @lemansclassic Pour du repérage pré-événement, rendez-vous sur le site. Si vous désirez voir un modèle en particulier, contactez sans tarder David Voisin au 06 73 16 61 21…</p>
+                                <div class="flex items-center text-blue-600">
+                                    <span>Lire la suite</span>
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300">
+                    <a href="https://www.maisonvp.fr/bienvenu-e-a-la-galerie-voisin/" class="block">
+                        <div class="md:flex">
+                            <div class="md:w-1/3 overflow-hidden">
+                                <img src="https://www.maisonvp.fr/wp-content/uploads/2024/09/2024-07-Affiche-galerie.png" alt="La Galerie Voisin" class="w-full h-full object-cover article-image">
+                            </div>
+                            <div class="p-6 md:w-2/3">
+                                <h2 class="text-2xl font-bold mb-3">Bienvenu.e à La Galerie Voisin</h2>
+                                <p class="text-gray-600 mb-4">Nous sommes heureux de vous annoncer l'ouverture officielle de la Galerie Voisin. Cette galerie est l'opportunité pour David de montrer une grande partie de son savoir-faire : Un véritable écrin pour ses Épures au rez-de-chaussée dans un univers acajou et au 1e dans une atmosphère chêne. De quoi peut-être vous projeter pour vos propres intérieurs…</p>
+                                <div class="flex items-center text-blue-600">
+                                    <span>Lire la suite</span>
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300">
+                    <a href="https://www.maisonvp.fr/nous-rencontrer-et-acquerir-votre-epure-en-2025/" class="block">
+                        <div class="md:flex">
+                            <div class="md:w-1/3 overflow-hidden">
+                                <img src="https://www.maisonvp.fr/wp-content/uploads/2024/03/Bonne-rentree.png" alt="Rencontrer David Voisin" class="w-full h-full object-cover article-image">
+                            </div>
+                            <div class="p-6 md:w-2/3">
+                                <h2 class="text-2xl font-bold mb-3">Nous rencontrer et acquérir votre Epure en 2025</h2>
+                                <p class="text-gray-600 mb-4">Pour nous rencontrer cette année 2025 : Et à partir de juin, à la Galerie Voisin à La Perrière, 147 rue de la Juiverie 61360 Belforêt-en-Perche. Elle est actuellement fermée pour travaux, comme le village. C'est une mise en beauté générale pour une meilleure réception de tous les visiteurs et habitants !</p>
+                                <div class="flex items-center text-blue-600">
+                                    <span>Lire la suite</span>
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300">
+                    <a href="https://www.maisonvp.fr/une-double-page-dans-auto-heroes-2025/" class="block">
+                        <div class="md:flex">
+                            <div class="md:w-1/3 overflow-hidden">
+                                <img src="https://www.maisonvp.fr/wp-content/uploads/2024/09/Arts-et-elegance-scaled.jpg" alt="Auto Heroes 2025" class="w-full h-full object-cover article-image">
+                            </div>
+                            <div class="p-6 md:w-2/3">
+                                <h2 class="text-2xl font-bold mb-3">Une double page dans Auto Heroes 2025</h2>
+                                <p class="text-gray-600 mb-4">Un grand merci au magazine Auto Heroes et à Jean-François Rivière pour la qualité de la présentation et de l'article. C'est un magnifique cadeau et démarrage 2025. Une belle récompense pour ces 10 années de travail, de recherche et de collaboration. Voici la première interview de David Voisin pour fêter ça et vous en dire…</p>
+                                <div class="flex items-center text-blue-600">
+                                    <span>Lire la suite</span>
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300">
+                    <a href="https://www.maisonvp.fr/meilleurs-voeux-2025/" class="block">
+                        <div class="md:flex">
+                            <div class="md:w-1/3 overflow-hidden">
+                                <img src="https://www.maisonvp.fr/wp-content/uploads/2024/04/911_AVANT3803-copie.jpg" alt="Meilleurs voeux 2025" class="w-full h-full object-cover article-image">
+                            </div>
+                            <div class="p-6 md:w-2/3">
+                                <h2 class="text-2xl font-bold mb-3">Meilleurs voeux 2025</h2>
+                                <p class="text-gray-600 mb-4">Meilleurs voeux pour cette nouvelle année. Nous espérons vous retrouver sur les prochains salons dédiés aux passionnés de l'automobiles :</p>
+                                <div class="flex items-center text-blue-600">
+                                    <span>Lire la suite</span>
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="mt-16 flex justify-center">
+                <a href="https://www.maisonvp.fr/page/2/" class="px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors duration-300 flex items-center">
+                    <span>Page suivante</span>
+                    <i class="fas fa-chevron-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="md:flex md:justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Maison V&P</h3>
+                    <p class="text-gray-400">Les épures – David Voisin</p>
+                </div>
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p class="text-gray-400">David Voisin</p>
+                    <p class="text-gray-400">06 73 16 61 21</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Galerie Voisin</h3>
+                    <p class="text-gray-400">147 rue de la Juiverie</p>
+                    <p class="text-gray-400">61360 Belforêt-en-Perche</p>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2025 Maison V&P. Tous droits réservés.</p>
+                <div class="mt-4">
+                    <a href="/en" class="text-gray-400 hover:text-white">English Version</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=JIPE3001/epures-v1" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
